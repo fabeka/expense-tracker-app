@@ -81,7 +81,7 @@ const ExpenseForm = () => {
             value={category}
             onChange={handleChange}
           >
-            <option value="Food ">Food </option>
+            <option value="Food ">Food and Drink </option>
             <option value="Accommodation">Accommodation</option>
             <option value="Transportation">Transportation</option>
             <option value="Housing and Renting">Housing and Renting</option>

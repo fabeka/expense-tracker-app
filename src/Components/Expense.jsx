@@ -16,7 +16,7 @@ const Expense = ({ title, amount, category, timeStamp, id }) => {
       borderRadius={5}
       
     >
-      <Text fontSize={13}>Expense Date: {timeStamp}</Text>
+      <Text fontSize={13}>Purchase Date: {timeStamp}</Text>
       <Text fontWeight="bold">
         Item:{" "}
         <Text as="span" fontWeight="medium">
