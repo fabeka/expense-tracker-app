@@ -37,7 +37,7 @@ const Expense = ({ title, amount, category, timeStamp, id }) => {
       </Text>
       <ButtonGroup mt={3}>
         <EditExpense expense={expense}/>
-        <Button onClick={() => dispatch(deleteExpense(id))}>
+        <Button colorScheme='blue' onClick={() => dispatch(deleteExpense(id))}>
           Delete
         </Button>
       </ButtonGroup>

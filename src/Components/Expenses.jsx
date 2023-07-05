@@ -7,7 +7,7 @@ const Expenses = () => {
 
   return (
     <>
-      <Heading mb={4}>Expenses</Heading>
+      <Heading mb={4}>Expenses Made</Heading>
       <SimpleGrid minChildWidth={250} gap={3}>
         {expenses.map((expense) => {
           return <Expense key={expense.id} {...expense} expense={expense}/>;

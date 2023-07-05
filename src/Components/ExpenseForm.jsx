@@ -72,7 +72,7 @@ const ExpenseForm = () => {
         </FormControl>
         {/* This is for the Category of expense */}
         <FormControl>
-          <FormLabel>Category of Expense</FormLabel>
+          <FormLabel>Category</FormLabel>
           <Select
             placeholder="Select option"
             borderColor="gray.900"
@@ -81,7 +81,7 @@ const ExpenseForm = () => {
             value={category}
             onChange={handleChange}
           >
-            <option value="Food and Drink">Food </option>
+            <option value="Food ">Food </option>
             <option value="Accommodation">Accommodation</option>
             <option value="Transportation">Transportation</option>
             <option value="Housing and Renting">Housing and Renting</option>

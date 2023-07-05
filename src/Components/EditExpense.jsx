@@ -56,7 +56,7 @@ const EditExpense = ({expense}) => {
 
   return (
     <>
-      <Button onClick={onOpen}>Update</Button>
+      <Button colorScheme='blue' onClick={onOpen}>Update</Button>
 
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
@@ -97,7 +97,7 @@ const EditExpense = ({expense}) => {
                   value={category}
                   onChange={handleChange}
                 >
-                  <option value="Food ">Food and Drink</option>
+                  <option value="Food and Drink">Food and Drink</option>
                   <option value="Accommodation">Accommodation</option>
                   <option value="Transportation">Transportation</option>
                   <option value="Housing and Renting">Housing and Renting</option>
